@@ -1,7 +1,7 @@
-[0;93m2026-11-04 21:42:44.910626068 [W:onnxruntime:Default, device_discovery.cc:95 GetPciBusId] Skipping pci_bus_id for PCI path at "/sys/devices/LNXSYSTM:00/LNXSYBUS:00/ACPI0004:00/MSFT1000:00/5620e0c7-8062-4dce-aeb7-520c7ef76171" because filename "5620e0c7-8062-4dce-aeb7-520c7ef76171" did not match expected pattern of [0-9a-f]+:[0-9a-f]+:[0-9a-f]+[.][0-9a-f]+[m
-TIMELINE OK  durée 66.52s  lignes 27
-OK 67.52 s  peak 1.22 rms 0.176
-RENDER OK 0 1996 frames 1996 en 38s
-EPISODE OK /home/runner/work/nuit-creepy/nuit-creepy/out/ep001.mp4 66.5s
+TIMELINE OK  durée 66.95s  lignes 27
+OK 67.95 s  peak 1.21 rms 0.178
+RENDER OK 0 2009 frames 2009 en 30s
+EPISODE OK /home/runner/work/nuit-creepy/nuit-creepy/out/ep001.mp4 66.9s
+Pas de clé ZERNIO_API_KEY : passage en mode test (rien ne sera publié).
 Histoire : ep001.json (1/30)
 TEST : vidéo générée dans out/, rien publié.
