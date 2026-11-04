@@ -1,0 +1,93 @@
+{
+ "id": "ep024",
+ "night": 24,
+ "palette": "vert",
+ "outfit": [
+  190,
+  214,
+  132
+ ],
+ "places": {
+  "hook": "SÉJOUR",
+  "door": "COULOIR",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:52:00",
+  "event": "02:00:00"
+ },
+ "group": {
+  "name": "Énergie Plus",
+  "sub": "Service client",
+  "sender": "Énergie Plus"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message d'*Énergie Plus*."
+ ],
+ "rules": [
+  [
+   "Coupure programmée à 02h00.",
+   "Coupure programmée, à *deux heures*."
+  ],
+  [
+   "Aucun technicien ne passera.",
+   "Aucun technicien *ne passera*."
+  ],
+  [
+   "Gardez une lampe à portée.",
+   "Gardez *une lampe* à portée."
+  ]
+ ],
+ "blackout": "Deux heures *pile*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "13",
+ "voice": "C'est l'*électricien*... je dois vérifier le compteur.",
+ "who": "L'électricien.",
+ "contra": [
+  "Énergie Plus",
+  "Aucun technicien n'est en intervention.",
+  "Mais *Énergie Plus* écrit : aucun technicien *en intervention*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "SOUS LA COUVERTURE"
+ ],
+ "ask": "Tu *ouvres*... ou tu te caches *sous la couverture* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Compteur *vérifié*.",
+ "retry": "Cette fois, tu te caches *sous la couverture*.",
+ "leave": "La lumière sous la porte *s'éteint*.",
+ "twist": [
+  "Énergie Plus",
+  "Le compteur indique une présence inconnue.",
+  "*Énergie Plus* t'écrit : le compteur indique *une présence inconnue*."
+ ],
+ "end": [
+  "Alors... *qui* consomme du courant ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Aucun électricien n'est en intervention. Réponds 1 ou 2. Nuit 25 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "ep005",
+ "night": 5,
+ "palette": "violet",
+ "outfit": [
+  214,
+  196,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:03:03",
+  "event": "03:33:00"
+ },
+ "group": {
+  "name": "Karim · Hôte",
+  "sub": "Séjour de trois nuits",
+  "sender": "Karim"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Karim*, ton hôte."
+ ],
+ "rules": [
+  [
+   "Je suis parti à l'aéroport.",
+   "Je suis *parti* à l'aéroport."
+  ],
+  [
+   "Je suis le seul à avoir la clé.",
+   "Je suis le *seul* à avoir la clé."
+  ],
+  [
+   "Si on sonne, n'ouvre pas.",
+   "Si on sonne... n'ouvre *pas*."
+  ]
+ ],
+ "blackout": "Trois heures *trente-trois*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "9",
+ "voice": "C'est *Karim*... j'ai oublié mon sac.",
+ "who": "Ton hôte.",
+ "contra": [
+  "Karim",
+  "Mon vol décolle dans dix minutes.",
+  "Mais il vient d'écrire : son vol *décolle*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "FAIRE SEMBLANT DE DORMIR"
+ ],
+ "ask": "Tu *ouvres*... ou tu fais semblant de *dormir* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci pour *l'hospitalité*.",
+ "retry": "Cette fois, tu fais semblant de *dormir*.",
+ "leave": "Les coups *s'arrêtent*.",
+ "twist": [
+  "Karim",
+  "Il y a quelqu'un d'autre dans le logement ?",
+  "*Karim* demande : il y a *quelqu'un d'autre* dans le logement ?"
+ ],
+ "end": [
+  "Alors... *qui* a la clé ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Tu es seul dans le logement. Vraiment ? Réponds 1 ou 2. Nuit 6 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

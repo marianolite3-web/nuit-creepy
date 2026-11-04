@@ -1,0 +1,93 @@
+{
+ "id": "ep003",
+ "night": 3,
+ "palette": "rouge",
+ "outfit": [
+  132,
+  190,
+  214
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:02:40",
+  "event": "01:30:00"
+ },
+ "group": {
+  "name": "Famille",
+  "sub": "Maman, Papa et toi",
+  "sender": "Maman"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *une heure* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *maman*."
+ ],
+ "rules": [
+  [
+   "On dort chez tata ce soir.",
+   "On dort *chez tata* ce soir."
+  ],
+  [
+   "Verrouille bien la porte.",
+   "Verrouille *bien* la porte."
+  ],
+  [
+   "Si on sonne, ce n'est pas nous.",
+   "Si on sonne... ce n'est *pas nous*."
+  ]
+ ],
+ "blackout": "Une heure *trente*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "12",
+ "voice": "C'est *maman*... ouvre, il fait froid.",
+ "who": "Ta mère.",
+ "contra": [
+  "Maman",
+  "On est chez tata, on dort déjà.",
+  "Mais elle vient d'écrire : elle *dort* chez tata."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "ÉTEINDRE LE TÉLÉPHONE"
+ ],
+ "ask": "Tu *ouvres*... ou tu *éteins* ton téléphone ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Elle *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Je suis *rentrée*.",
+ "retry": "Cette fois, tu *éteins* ton téléphone.",
+ "leave": "Le silence *revient*.",
+ "twist": [
+  "Maman",
+  "Quelqu'un a pris ma voix. Ne réponds plus.",
+  "*Maman* t'écrit : quelqu'un a pris *sa voix*."
+ ],
+ "end": [
+  "Alors... *qui* te répondait ?",
+  "Elle est *dans* le placard."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Maman frappe à ta porte... mais maman dort chez tata. Réponds 1 ou 2. Nuit 4 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

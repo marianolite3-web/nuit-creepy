@@ -1,0 +1,93 @@
+{
+ "id": "ep007",
+ "night": 7,
+ "palette": "rouge",
+ "outfit": [
+  214,
+  150,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "02:10:20",
+  "event": "02:50:00"
+ },
+ "group": {
+  "name": "Madame Roche",
+  "sub": "Voisine du dessus",
+  "sender": "Mme Roche"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Madame Roche*, ta voisine."
+ ],
+ "rules": [
+  [
+   "J'ai entendu du bruit au grenier.",
+   "J'ai entendu du bruit *au grenier*."
+  ],
+  [
+   "Ne monte pas.",
+   "Ne monte *pas*."
+  ],
+  [
+   "Si je t'appelle, ne viens pas.",
+   "Si je t'appelle... ne viens *pas*."
+  ]
+ ],
+ "blackout": "Deux heures *cinquante*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "5A",
+ "voice": "C'est *Madame Roche*... aide-moi, je suis tombée.",
+ "who": "Ta voisine du dessus.",
+ "contra": [
+  "Mme Roche",
+  "Je suis chez ma fille à Lyon.",
+  "Mais elle écrit : elle est *chez sa fille*. À Lyon."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "ÉTEINDRE LE TÉLÉPHONE"
+ ],
+ "ask": "Tu *ouvres*... ou tu *éteins* ton téléphone ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Elle *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci de *monter*.",
+ "retry": "Cette fois, tu *éteins* ton téléphone.",
+ "leave": "Le silence *revient*.",
+ "twist": [
+  "Mme Roche",
+  "Ce n'était pas du bruit. C'étaient des pas.",
+  "*Madame Roche* t'écrit : ce n'était pas du bruit. C'étaient *des pas*."
+ ],
+ "end": [
+  "Alors... *qui* marche au-dessus de toi ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Madame Roche appelle à l'aide... depuis Lyon. Réponds 1 ou 2. Nuit 8 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

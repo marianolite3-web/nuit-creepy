@@ -1,0 +1,93 @@
+{
+ "id": "ep006",
+ "night": 6,
+ "palette": "bleu",
+ "outfit": [
+  164,
+  132,
+  214
+ ],
+ "places": {
+  "hook": "STUDIO",
+  "door": "COULOIR",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "23:52:10",
+  "event": "00:00:00"
+ },
+ "group": {
+  "name": "Cité U · Bâtiment B",
+  "sub": "Étage deux · 40 résidents",
+  "sender": "Surveillant"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *minuit* moins huit."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message du *surveillant*."
+ ],
+ "rules": [
+  [
+   "Couvre-feu à minuit.",
+   "*Couvre-feu* à minuit."
+  ],
+  [
+   "Les couloirs sont fermés.",
+   "Les couloirs sont *fermés*."
+  ],
+  [
+   "Personne ne passe cette nuit.",
+   "*Personne* ne passe cette nuit."
+  ]
+ ],
+ "blackout": "Minuit *pile*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "B214",
+ "voice": "C'est le *surveillant*... contrôle de chambre.",
+ "who": "Le surveillant.",
+ "contra": [
+  "Surveillant",
+  "Je suis en congé jusqu'à lundi.",
+  "Mais lui écrit : il est *en congé* jusqu'à lundi."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Contrôle *terminé*.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "Camille",
+  "Quelqu'un attend dans le couloir depuis une heure.",
+  "*Camille* t'écrit : quelqu'un *attend* dans le couloir depuis une heure."
+ ],
+ "end": [
+  "Alors... *qui* te surveille ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Le surveillant est en congé. Alors qui frappe ? Réponds 1 ou 2. Nuit 7 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

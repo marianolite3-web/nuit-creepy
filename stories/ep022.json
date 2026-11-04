@@ -1,0 +1,93 @@
+{
+ "id": "ep022",
+ "night": 22,
+ "palette": "bleu",
+ "outfit": [
+  214,
+  150,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:05:00",
+  "event": "01:40:00"
+ },
+ "group": {
+  "name": "Chalet des Alpes",
+  "sub": "Propriétaire",
+  "sender": "Propriétaire"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *une heure* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message du *propriétaire* du chalet."
+ ],
+ "rules": [
+  [
+   "La tempête arrive cette nuit.",
+   "La *tempête* arrive cette nuit."
+  ],
+  [
+   "Ne sors pas du chalet.",
+   "Ne sors *pas* du chalet."
+  ],
+  [
+   "Si on frappe, c'est le vent.",
+   "Si on frappe... c'est *le vent*."
+  ]
+ ],
+ "blackout": "Une heure *quarante*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "1",
+ "voice": "C'est le *guide*... je suis gelé, ouvre !",
+ "who": "Le guide.",
+ "contra": [
+  "Propriétaire",
+  "Le guide est redescendu hier soir.",
+  "Mais il écrit : le guide est *redescendu* hier soir."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Il fait *chaud*, ici.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "Propriétaire",
+  "Le vent n'a pas de mains.",
+  "Le *propriétaire* t'écrit : le vent n'a *pas de mains*."
+ ],
+ "end": [
+  "Alors... *qui* frappait ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Si on frappe, c'est le vent. Vraiment ? Réponds 1 ou 2. Nuit 23 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

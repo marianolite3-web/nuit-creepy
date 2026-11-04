@@ -1,0 +1,93 @@
+{
+ "id": "ep021",
+ "night": 21,
+ "palette": "violet",
+ "outfit": [
+  164,
+  132,
+  214
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "02:00:00",
+  "event": "02:25:00"
+ },
+ "group": {
+  "name": "Maison connectée",
+  "sub": "Assistant · Mode nuit",
+  "sender": "Maison"
+ },
+ "hook": [
+  "Ne bouge pas.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de ta *maison connectée*."
+ ],
+ "rules": [
+  [
+   "Mode nuit activé.",
+   "Mode nuit *activé*."
+  ],
+  [
+   "Les portes sont verrouillées.",
+   "Les portes sont *verrouillées*."
+  ],
+  [
+   "Je surveille toutes les pièces.",
+   "Je surveille *toutes les pièces*."
+  ]
+ ],
+ "blackout": "Deux heures *vingt-cinq*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "1",
+ "voice": "Mode nuit... *désactivé*. Ouvre, c'est moi.",
+ "who": "Ta propre maison.",
+ "contra": [
+  "Maison",
+  "Aucune présence détectée dans le couloir.",
+  "Mais la maison écrit : aucune *présence* dans le couloir."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "FAIRE SEMBLANT DE DORMIR"
+ ],
+ "ask": "Tu *ouvres*... ou tu fais semblant de *dormir* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Bonne *nuit*.",
+ "retry": "Cette fois, tu fais semblant de *dormir*.",
+ "leave": "Les coups *s'arrêtent*.",
+ "twist": [
+  "Maison",
+  "Deux occupants détectés dans le logement.",
+  "*La maison* t'écrit : *deux occupants* détectés dans le logement."
+ ],
+ "end": [
+  "Alors... *qui* est le deuxième ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "La maison détecte deux occupants. Tu es seul. Réponds 1 ou 2. Nuit 22 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

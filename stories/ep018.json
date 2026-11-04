@@ -1,0 +1,93 @@
+{
+ "id": "ep018",
+ "night": 18,
+ "palette": "bleu",
+ "outfit": [
+  132,
+  190,
+  214
+ ],
+ "places": {
+  "hook": "APPARTEMENT",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "02:02:02",
+  "event": "02:20:00"
+ },
+ "group": {
+  "name": "Propriétaire",
+  "sub": "M. Bernard",
+  "sender": "M. Bernard"
+ },
+ "hook": [
+  "Ce soir.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de ton *propriétaire*."
+ ],
+ "rules": [
+  [
+   "Je passe demain midi pour l'état des lieux.",
+   "Je passe *demain midi*."
+  ],
+  [
+   "N'ouvrez à personne avant.",
+   "N'ouvre à *personne* avant."
+  ],
+  [
+   "J'ai gardé un double des clés.",
+   "J'ai gardé *un double* des clés."
+  ]
+ ],
+ "blackout": "Deux heures *vingt*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "8B",
+ "voice": "C'est ton *propriétaire*... je viens vérifier.",
+ "who": "Ton propriétaire.",
+ "contra": [
+  "M. Bernard",
+  "Je suis encore à Marseille.",
+  "Mais il écrit : il est *encore à Marseille*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Je suis *chez moi*.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "M. Bernard",
+  "Mon double des clés a disparu hier.",
+  "*Monsieur Bernard* t'écrit : son double des clés a *disparu*."
+ ],
+ "end": [
+  "Alors... *qui* a la clé ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Le propriétaire est à Marseille. Alors qui a la clé ? Réponds 1 ou 2. Nuit 19 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

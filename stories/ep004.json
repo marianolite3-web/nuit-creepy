@@ -1,0 +1,93 @@
+{
+ "id": "ep004",
+ "night": 4,
+ "palette": "vert",
+ "outfit": [
+  190,
+  214,
+  132
+ ],
+ "places": {
+  "hook": "SUITE",
+  "door": "COULOIR",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "02:01:30",
+  "event": "02:15:00"
+ },
+ "group": {
+  "name": "Réception",
+  "sub": "Hôtel Beau Rivage",
+  "sender": "Réception"
+ },
+ "hook": [
+  "Ce soir.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de la *réception*."
+ ],
+ "rules": [
+  [
+   "Maintenance du couloir à 02h15.",
+   "Maintenance du couloir, à *deux heures quinze*."
+  ],
+  [
+   "Merci de rester dans votre chambre.",
+   "Restez *dans votre chambre*."
+  ],
+  [
+   "Nous ne frappons jamais.",
+   "Nous ne frappons *jamais*."
+  ]
+ ],
+ "blackout": "Deux heures *quinze*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "204",
+ "voice": "Service d'étage... *ouvrez*, s'il vous plaît.",
+ "who": "Le service d'étage.",
+ "contra": [
+  "Réception",
+  "Aucun service d'étage cette nuit.",
+  "Mais la réception écrit : aucun service d'étage *cette nuit*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "SOUS LA COUVERTURE"
+ ],
+ "ask": "Tu *ouvres*... ou tu te caches *sous la couverture* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Votre *chambre* est prête.",
+ "retry": "Cette fois, tu te caches *sous la couverture*.",
+ "leave": "La lumière sous la porte *s'éteint*.",
+ "twist": [
+  "Réception",
+  "La chambre 204 est inoccupée depuis hier.",
+  "La *réception* t'écrit : cette chambre est *inoccupée*. Depuis hier."
+ ],
+ "end": [
+  "Alors... *qui* dort dans cette chambre ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Le service d'étage n'existe pas cette nuit. Réponds 1 ou 2. Nuit 5 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

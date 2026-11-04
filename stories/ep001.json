@@ -1,0 +1,93 @@
+{
+ "id": "ep001",
+ "night": 1,
+ "palette": "violet",
+ "outfit": [
+  164,
+  132,
+  214
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:12:07",
+  "event": "03:20:00"
+ },
+ "group": {
+  "name": "Résidence Les Tilleuls",
+  "sub": "24 membres · 3 en ligne",
+  "sender": "Syndic"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message du *syndic*."
+ ],
+ "rules": [
+  [
+   "Coupure de courant à 03h20.",
+   "Coupure de courant, à *trois heures vingt*."
+  ],
+  [
+   "Restez chez vous.",
+   "Restez *chez vous*."
+  ],
+  [
+   "Si quelqu'un frappe, ne répondez pas.",
+   "Si quelqu'un *frappe*... ne réponds pas."
+  ]
+ ],
+ "blackout": "Trois heures *vingt*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "3B",
+ "voice": "C'est *Léa*... du quatrième. Ouvre-moi.",
+ "who": "Ta voisine.",
+ "contra": [
+  "Léa 4B",
+  "Je suis chez ma mère depuis hier.",
+  "Mais elle vient d'écrire : elle est *chez sa mère*. Depuis hier."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "FAIRE SEMBLANT DE DORMIR"
+ ],
+ "ask": "Tu *ouvres*... ou tu fais semblant de *dormir* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Elle *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci d'avoir *ouvert*.",
+ "retry": "Cette fois, tu fais semblant de *dormir*.",
+ "leave": "Les coups *s'arrêtent*.",
+ "twist": [
+  "Léa 4B",
+  "C'était pas moi qui frappais.",
+  "*Léa* t'écrit : ce n'était *pas elle*."
+ ],
+ "end": [
+  "Alors... *qui* frappait ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Tu ouvres ou tu te caches ? Réponds 1 ou 2. Nuit 2 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense"
+}

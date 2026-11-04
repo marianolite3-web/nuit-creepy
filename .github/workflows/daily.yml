@@ -1,0 +1,56 @@
+name: Épisode du jour
+on:
+  schedule:
+    - cron: "30 17 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "test = génère sans publier, post = publie"
+        type: choice
+        default: test
+        options: [test, post]
+permissions:
+  contents: write
+jobs:
+  episode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Outils système
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+      - run: pip install -r requirements.txt
+      - name: Voix française
+        run: |
+          mkdir -p assets
+          curl -sSL -o /tmp/voix.tgz https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-fr-siwis-medium.tar.gz
+          tar -xzf /tmp/voix.tgz -C assets
+      - name: Générer (et publier)
+        shell: bash
+        env:
+          ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
+          MAX_PER_MONTH: ${{ vars.MAX_PER_MONTH || '20' }}
+          MODE: ${{ github.event.inputs.mode || 'post' }}
+        run: python engine/daily.py --mode "$MODE" 2>&1 | grep -v "Missing phoneme" | tee run.log
+      - name: Lien de relecture (dernière vidéo)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          f=$(ls out/*.mp4 2>/dev/null | head -1)
+          [ -z "$f" ] && exit 0
+          gh release view latest >/dev/null 2>&1 || gh release create latest --title "Dernier épisode" --notes "Dernière vidéo générée" --prerelease
+          gh release upload latest "$f" --clobber
+      - name: Mémoriser l'état et le journal
+        if: always()
+        run: |
+          mkdir -p state
+          tail -n 60 run.log > state/last_run.txt 2>/dev/null || echo "pas de journal" > state/last_run.txt
+          git config user.name "episode-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add state/
+          git diff --cached --quiet || (git commit -m "état et journal du jour" && git pull --rebase -q && git push)

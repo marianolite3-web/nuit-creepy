@@ -1,0 +1,93 @@
+{
+ "id": "ep030",
+ "night": 30,
+ "palette": "bleu",
+ "outfit": [
+  214,
+  196,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:12:07",
+  "event": "03:20:00"
+ },
+ "group": {
+  "name": "Toi",
+  "sub": "Messages enregistrés",
+  "sender": "Toi"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de... *toi*."
+ ],
+ "rules": [
+  [
+   "Si tu lis ça, j'ai déjà ouvert.",
+   "Si tu lis ça... j'ai *déjà ouvert*."
+  ],
+  [
+   "Ne fais pas la même erreur.",
+   "Ne fais pas *la même erreur*."
+  ],
+  [
+   "Il imite ma voix.",
+   "Il imite *ma voix*."
+  ]
+ ],
+ "blackout": "Trois heures *vingt*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "0",
+ "voice": "C'est *toi*... ouvre-moi.",
+ "who": "Ta propre voix.",
+ "contra": [
+  "Toi",
+  "Je ne suis jamais sorti ce soir.",
+  "Mais *tu* as écrit : tu n'es *jamais sorti* ce soir."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Je suis *toi*.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "Toi",
+  "Regarde bien la date de ce message.",
+  "*Toi* t'écris : regarde *la date* de ce message."
+ ],
+ "end": [
+  "Alors... *qui* es-tu ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Le dernier message vient de toi. La suite bientôt.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

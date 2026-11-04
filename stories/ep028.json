@@ -1,0 +1,93 @@
+{
+ "id": "ep028",
+ "night": 28,
+ "palette": "vert",
+ "outfit": [
+  132,
+  190,
+  214
+ ],
+ "places": {
+  "hook": "APPARTEMENT",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "00:14:00",
+  "event": "00:35:00"
+ },
+ "group": {
+  "name": "Amina",
+  "sub": "Ta cousine",
+  "sender": "Amina"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *minuit* et quart."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message d'*Amina*, ta cousine."
+ ],
+ "rules": [
+  [
+   "Je dors chez Yasmine ce soir.",
+   "Je dors *chez Yasmine* ce soir."
+  ],
+  [
+   "Ne m'attends pas, j'ai mes clés.",
+   "Ne m'attends pas. J'ai *mes clés*."
+  ],
+  [
+   "Ne réponds pas à la porte.",
+   "Ne réponds *pas* à la porte."
+  ]
+ ],
+ "blackout": "Minuit *trente-cinq*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "7B",
+ "voice": "C'est *Amina*... j'ai changé d'avis, ouvre.",
+ "who": "Ta cousine.",
+ "contra": [
+  "Amina",
+  "Je suis chez Yasmine, on mange.",
+  "Mais elle écrit : elle est *chez Yasmine*. Elle mange."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "SOUS LA COUVERTURE"
+ ],
+ "ask": "Tu *ouvres*... ou tu te caches *sous la couverture* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Elle *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Je suis *rentrée*.",
+ "retry": "Cette fois, tu te caches *sous la couverture*.",
+ "leave": "La lumière sous la porte *s'éteint*.",
+ "twist": [
+  "Amina",
+  "J'ai vu quelqu'un entrer chez toi par la fenêtre.",
+  "*Amina* t'écrit : quelqu'un est entré chez toi *par la fenêtre*."
+ ],
+ "end": [
+  "Alors... *qui* est entré ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Amina est chez Yasmine. Elle frappe à ta porte. Réponds 1 ou 2. Nuit 29 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

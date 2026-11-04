@@ -1,0 +1,93 @@
+{
+ "id": "ep009",
+ "night": 9,
+ "palette": "violet",
+ "outfit": [
+  190,
+  214,
+  132
+ ],
+ "places": {
+  "hook": "SÉJOUR",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "00:23:40",
+  "event": "00:30:00"
+ },
+ "group": {
+  "name": "Lucas",
+  "sub": "Ton frère",
+  "sender": "Lucas"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *minuit* et demi."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Lucas*, ton frère."
+ ],
+ "rules": [
+  [
+   "Je dors chez Théo ce soir.",
+   "Je dors *chez Théo* ce soir."
+  ],
+  [
+   "Ne m'attends pas.",
+   "Ne m'attends *pas*."
+  ],
+  [
+   "Si je frappe, ne réponds pas.",
+   "Si je frappe... ne réponds *pas*."
+  ]
+ ],
+ "blackout": "Minuit *trente*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "3A",
+ "voice": "C'est *moi*... Lucas. Ouvre-moi.",
+ "who": "Ton frère.",
+ "contra": [
+  "Lucas",
+  "Je suis déjà couché chez Théo.",
+  "Mais il vient d'écrire : il est *déjà couché*. Chez Théo."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "FAIRE SEMBLANT DE DORMIR"
+ ],
+ "ask": "Tu *ouvres*... ou tu fais semblant de *dormir* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Je t'ai *trouvé*.",
+ "retry": "Cette fois, tu fais semblant de *dormir*.",
+ "leave": "Les coups *s'arrêtent*.",
+ "twist": [
+  "Lucas",
+  "Quelqu'un a répondu à ma place dans le couloir.",
+  "*Lucas* t'écrit : quelqu'un a répondu *à sa place*."
+ ],
+ "end": [
+  "Alors... *qui* parlait avec sa voix ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Ton frère frappe. Ton frère dort ailleurs. Réponds 1 ou 2. Nuit 10 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

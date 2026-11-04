@@ -1,0 +1,93 @@
+{
+ "id": "ep002",
+ "night": 2,
+ "palette": "bleu",
+ "outfit": [
+  214,
+  150,
+  132
+ ],
+ "places": {
+  "hook": "SÉJOUR",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "02:05:10",
+  "event": "02:40:00"
+ },
+ "group": {
+  "name": "Coloc du 4e",
+  "sub": "3 membres · 2 en ligne",
+  "sender": "Maxime"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Maxime*, ton colocataire."
+ ],
+ "rules": [
+  [
+   "Je rentre à 4h, pas avant.",
+   "Je rentre à quatre heures. *Pas avant*."
+  ],
+  [
+   "Ne laisse entrer personne.",
+   "Ne laisse entrer *personne*."
+  ],
+  [
+   "Même si ça me ressemble.",
+   "Même si ça *me ressemble*."
+  ]
+ ],
+ "blackout": "Deux heures *quarante*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "4C",
+ "voice": "C'est *Maxime*... j'ai oublié mes clés.",
+ "who": "Ton colocataire.",
+ "contra": [
+  "Maxime",
+  "Je suis encore au resto avec Inès.",
+  "Mais il vient d'écrire : il est *encore au restaurant*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci de m'avoir *laissé* entrer.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "Inès",
+  "Maxime est avec moi depuis ce soir.",
+  "*Inès* t'écrit : Maxime est *avec elle*."
+ ],
+ "end": [
+  "Alors... *qui* t'appelait par ton prénom ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Maxime frappe à ta porte... mais Maxime est ailleurs. Réponds 1 ou 2. Nuit 3 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

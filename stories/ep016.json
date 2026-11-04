@@ -1,0 +1,93 @@
+{
+ "id": "ep016",
+ "night": 16,
+ "palette": "vert",
+ "outfit": [
+  164,
+  132,
+  214
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:20:20",
+  "event": "01:50:00"
+ },
+ "group": {
+  "name": "Hugo",
+  "sub": "Voisin d'en face",
+  "sender": "Hugo"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *une heure* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Hugo*, ton voisin."
+ ],
+ "rules": [
+  [
+   "Je vois de la lumière chez toi.",
+   "Je vois de la lumière *chez toi*."
+  ],
+  [
+   "Éteins tout et ne bouge pas.",
+   "Éteins tout. Et ne bouge *pas*."
+  ],
+  [
+   "Quelqu'un te regarde par la fenêtre.",
+   "Quelqu'un te *regarde* par la fenêtre."
+  ]
+ ],
+ "blackout": "Une heure *cinquante*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "14",
+ "voice": "C'est *Hugo*... ouvre, vite, il est là !",
+ "who": "Ton voisin d'en face.",
+ "contra": [
+  "Hugo",
+  "Je suis chez moi, les volets fermés.",
+  "Mais il écrit : il est *chez lui*, les volets fermés."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "SOUS LA COUVERTURE"
+ ],
+ "ask": "Tu *ouvres*... ou tu te caches *sous la couverture* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Il est *entré*.",
+ "retry": "Cette fois, tu te caches *sous la couverture*.",
+ "leave": "La lumière sous la porte *s'éteint*.",
+ "twist": [
+  "Hugo",
+  "Ce n'est pas ta fenêtre. C'est ton miroir.",
+  "*Hugo* t'écrit : ce n'est pas ta fenêtre. C'est *ton miroir*."
+ ],
+ "end": [
+  "Alors... *qui* te regardait ?",
+  "Dans le *miroir*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Quelqu'un te regarde par la fenêtre. Réponds 1 ou 2. Nuit 17 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

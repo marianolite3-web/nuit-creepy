@@ -1,0 +1,6 @@
+work/
+out/
+__pycache__/
+assets/*.onnx
+assets/*.onnx.json
+assets/MODEL_CARD

@@ -1,0 +1,93 @@
+{
+ "id": "ep017",
+ "night": 17,
+ "palette": "violet",
+ "outfit": [
+  214,
+  150,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:01:15",
+  "event": "01:25:00"
+ },
+ "group": {
+  "name": "Papa",
+  "sub": "Ton père",
+  "sender": "Papa"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *une heure* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *papa*."
+ ],
+ "rules": [
+  [
+   "Je rentre tard du travail.",
+   "Je rentre *tard* du travail."
+  ],
+  [
+   "Je prendrai mes clés.",
+   "Je prendrai *mes clés*."
+  ],
+  [
+   "Ne m'ouvre jamais.",
+   "Ne m'ouvre *jamais*."
+  ]
+ ],
+ "blackout": "Une heure *vingt-cinq*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "3",
+ "voice": "C'est *papa*... j'ai perdu mes clés.",
+ "who": "Ton père.",
+ "contra": [
+  "Papa",
+  "Je suis encore au bureau.",
+  "Mais il écrit : il est *encore au bureau*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "FAIRE SEMBLANT DE DORMIR"
+ ],
+ "ask": "Tu *ouvres*... ou tu fais semblant de *dormir* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci d'avoir *ouvert*.",
+ "retry": "Cette fois, tu fais semblant de *dormir*.",
+ "leave": "Les coups *s'arrêtent*.",
+ "twist": [
+  "Papa",
+  "J'arrive dans dix minutes. Quelqu'un est avec toi ?",
+  "*Papa* demande : quelqu'un est *avec toi* ?"
+ ],
+ "end": [
+  "Alors... *qui* est à l'intérieur ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Papa n'a pas ses clés. Papa n'est pas là. Réponds 1 ou 2. Nuit 18 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

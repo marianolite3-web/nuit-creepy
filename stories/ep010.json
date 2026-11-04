@@ -1,0 +1,93 @@
+{
+ "id": "ep010",
+ "night": 10,
+ "palette": "bleu",
+ "outfit": [
+  214,
+  196,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:00:10",
+  "event": "03:20:00"
+ },
+ "group": {
+  "name": "Immeuble B",
+  "sub": "18 voisins",
+  "sender": "Gardien"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message du *gardien*."
+ ],
+ "rules": [
+  [
+   "Ne montez pas au dernier étage.",
+   "Ne montez pas au *dernier étage*."
+  ],
+  [
+   "Ne descendez pas au sous-sol.",
+   "Ne descendez pas *au sous-sol*."
+  ],
+  [
+   "Restez à votre étage.",
+   "Restez *à votre étage*."
+  ]
+ ],
+ "blackout": "Trois heures *vingt*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "11",
+ "voice": "C'est le *gardien*... fuite d'eau, ouvrez vite !",
+ "who": "Le gardien.",
+ "contra": [
+  "Gardien",
+  "Je suis à l'hôpital depuis ce soir.",
+  "Mais il écrit : il est *à l'hôpital* depuis ce soir."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci de *descendre*.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "Gardien",
+  "Je n'ai jamais travaillé de nuit.",
+  "Le *gardien* t'écrit : il n'a *jamais* travaillé de nuit."
+ ],
+ "end": [
+  "Alors... *qui* garde l'immeuble ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Le gardien est à l'hôpital. Quelqu'un porte sa voix. Réponds 1 ou 2. Nuit 11 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

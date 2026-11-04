@@ -1,0 +1,93 @@
+{
+ "id": "ep019",
+ "night": 19,
+ "palette": "rouge",
+ "outfit": [
+  190,
+  214,
+  132
+ ],
+ "places": {
+  "hook": "SÉJOUR",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "00:21:00",
+  "event": "00:50:00"
+ },
+ "group": {
+  "name": "Yanis",
+  "sub": "Ton cousin",
+  "sender": "Yanis"
+ },
+ "hook": [
+  "Écoute.",
+  "Il est *minuit* et demi."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Yanis*, ton cousin."
+ ],
+ "rules": [
+  [
+   "Je dors dans la voiture.",
+   "Je dors *dans la voiture*."
+  ],
+  [
+   "Je passerai te voir demain.",
+   "Je passerai *demain*."
+  ],
+  [
+   "Ne sors pas me chercher.",
+   "Ne sors *pas* me chercher."
+  ]
+ ],
+ "blackout": "Minuit *cinquante*.",
+ "knocks": "*Trois coups*. À ta porte.",
+ "plate": "15",
+ "voice": "C'est *Yanis*... il pleut, laisse-moi entrer.",
+ "who": "Ton cousin.",
+ "contra": [
+  "Yanis",
+  "Je suis sur l'autoroute, je conduis.",
+  "Mais il écrit : il est *sur l'autoroute*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "ÉTEINDRE LE TÉLÉPHONE"
+ ],
+ "ask": "Tu *ouvres*... ou tu *éteins* ton téléphone ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci pour *l'abri*.",
+ "retry": "Cette fois, tu *éteins* ton téléphone.",
+ "leave": "Le silence *revient*.",
+ "twist": [
+  "Yanis",
+  "Je te vois depuis la route. Tu n'es pas seul.",
+  "*Yanis* t'écrit : tu n'es *pas seul*."
+ ],
+ "end": [
+  "Alors... *qui* est avec toi ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Alors... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU FAIS QUEL",
+  "CHOIX ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Yanis dort dans sa voiture. Yanis est à ta porte. Réponds 1 ou 2. Nuit 20 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

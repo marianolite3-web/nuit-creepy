@@ -1,0 +1,93 @@
+{
+ "id": "ep027",
+ "night": 27,
+ "palette": "rouge",
+ "outfit": [
+  214,
+  150,
+  132
+ ],
+ "places": {
+  "hook": "SÉJOUR",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:01:01",
+  "event": "03:22:00"
+ },
+ "group": {
+  "name": "Interphone",
+  "sub": "Accueil de l'immeuble",
+  "sender": "Interphone"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de l'*interphone*."
+ ],
+ "rules": [
+  [
+   "Visiteur à l'accueil.",
+   "*Visiteur* à l'accueil."
+  ],
+  [
+   "Aucun nom enregistré.",
+   "Aucun nom *enregistré*."
+  ],
+  [
+   "N'appuyez pas sur le bouton.",
+   "N'appuyez *pas* sur le bouton."
+  ]
+ ],
+ "blackout": "Trois heures *vingt-deux*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "4",
+ "voice": "C'est moi... *appuie* sur le bouton.",
+ "who": "Le visiteur.",
+ "contra": [
+  "Interphone",
+  "Aucun visiteur à l'accueil.",
+  "Mais l'interphone écrit : aucun *visiteur* à l'accueil."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "ÉTEINDRE LE TÉLÉPHONE"
+ ],
+ "ask": "Tu *ouvres*... ou tu *éteins* ton téléphone ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Enfin... *entré*.",
+ "retry": "Cette fois, tu *éteins* ton téléphone.",
+ "leave": "Le silence *revient*.",
+ "twist": [
+  "Interphone",
+  "La porte d'entrée a été ouverte de l'intérieur.",
+  "L'*interphone* t'écrit : la porte d'entrée a été ouverte *de l'intérieur*."
+ ],
+ "end": [
+  "Alors... *qui* l'a ouverte ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Aucun visiteur à l'accueil. Pourtant, ça frappe. Réponds 1 ou 2. Nuit 28 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

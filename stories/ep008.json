@@ -1,0 +1,93 @@
+{
+ "id": "ep008",
+ "night": 8,
+ "palette": "vert",
+ "outfit": [
+  132,
+  190,
+  214
+ ],
+ "places": {
+  "hook": "APPARTEMENT",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:12:00",
+  "event": "01:45:00"
+ },
+ "group": {
+  "name": "Alerte Quartier",
+  "sub": "Mairie · 820 abonnés",
+  "sender": "Mairie"
+ },
+ "hook": [
+  "Ce soir.",
+  "Il est *une heure* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Une alerte de la *mairie*."
+ ],
+ "rules": [
+  [
+   "Un individu a été signalé dans la rue.",
+   "Un individu a été signalé *dans la rue*."
+  ],
+  [
+   "Ne répondez à aucun inconnu.",
+   "Ne répondez à *aucun inconnu*."
+  ],
+  [
+   "Même s'il se dit policier.",
+   "Même s'il se dit *policier*."
+  ]
+ ],
+ "blackout": "Une heure *quarante-cinq*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "7",
+ "voice": "*Police*... ouvrez la porte.",
+ "who": "La police.",
+ "contra": [
+  "Mairie",
+  "Aucune patrouille ce soir.",
+  "Mais la mairie vient d'écrire : aucune *patrouille* ce soir."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "SOUS LA COUVERTURE"
+ ],
+ "ask": "Tu *ouvres*... ou tu te caches *sous la couverture* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci de *coopérer*.",
+ "retry": "Cette fois, tu te caches *sous la couverture*.",
+ "leave": "La lumière sous la porte *s'éteint*.",
+ "twist": [
+  "Mairie",
+  "L'individu est maintenant dans l'immeuble.",
+  "La *mairie* t'écrit : l'individu est maintenant *dans l'immeuble*."
+ ],
+ "end": [
+  "Alors... *qui* était à ta porte ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Il se dit policier. La mairie dit le contraire. Réponds 1 ou 2. Nuit 9 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "ep023",
+ "night": 23,
+ "palette": "rouge",
+ "outfit": [
+  132,
+  190,
+  214
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:10:10",
+  "event": "03:35:00"
+ },
+ "group": {
+  "name": "Standard médical",
+  "sub": "Médecin de garde",
+  "sender": "Standard"
+ },
+ "hook": [
+  "Ce soir.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message du *standard médical*."
+ ],
+ "rules": [
+  [
+   "Un médecin de garde peut passer.",
+   "Un médecin de garde *peut passer*."
+  ],
+  [
+   "Nous vous appelons avant.",
+   "Nous vous *appelons* avant."
+  ],
+  [
+   "Sinon, n'ouvrez pas.",
+   "Sinon... n'ouvrez *pas*."
+  ]
+ ],
+ "blackout": "Trois heures *trente-cinq*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "2B",
+ "voice": "*Médecin* de garde... on m'a appelé pour vous.",
+ "who": "Le médecin.",
+ "contra": [
+  "Standard",
+  "Aucun médecin n'a été envoyé à cette adresse.",
+  "Mais le standard écrit : aucun médecin n'a été *envoyé*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "ÉTEINDRE LE TÉLÉPHONE"
+ ],
+ "ask": "Tu *ouvres*... ou tu *éteins* ton téléphone ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Ne vous *inquiétez* pas.",
+ "retry": "Cette fois, tu *éteins* ton téléphone.",
+ "leave": "Le silence *revient*.",
+ "twist": [
+  "Standard",
+  "Quelqu'un a appelé depuis votre téléphone.",
+  "Le *standard* t'écrit : quelqu'un a appelé *depuis ton téléphone*."
+ ],
+ "end": [
+  "Alors... *qui* a appelé ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Tu n'as appelé aucun médecin. Réponds 1 ou 2. Nuit 24 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

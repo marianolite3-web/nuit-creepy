@@ -1,0 +1,93 @@
+{
+ "id": "ep029",
+ "night": 29,
+ "palette": "violet",
+ "outfit": [
+  190,
+  214,
+  132
+ ],
+ "places": {
+  "hook": "SÉJOUR",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:15:15",
+  "event": "01:44:00"
+ },
+ "group": {
+  "name": "Coloc du 2e",
+  "sub": "Nina, nouvelle colocataire",
+  "sender": "Nina"
+ },
+ "hook": [
+  "Ne bouge pas.",
+  "Il est *une heure* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Nina*, ta nouvelle colocataire."
+ ],
+ "rules": [
+  [
+   "Je dors chez mon copain ce soir.",
+   "Je dors *chez mon copain* ce soir."
+  ],
+  [
+   "Je rentre demain matin.",
+   "Je rentre *demain matin*."
+  ],
+  [
+   "Je n'ai pas encore mes clés.",
+   "Je n'ai *pas encore* mes clés."
+  ]
+ ],
+ "blackout": "Une heure *quarante-quatre*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "2D",
+ "voice": "C'est *Nina*... j'ai fini plus tôt, ouvre-moi.",
+ "who": "Ta nouvelle colocataire.",
+ "contra": [
+  "Nina",
+  "Je suis chez Tom, on regarde un film.",
+  "Mais elle écrit : elle est *chez Tom*. Devant un film."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "FAIRE SEMBLANT DE DORMIR"
+ ],
+ "ask": "Tu *ouvres*... ou tu fais semblant de *dormir* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Elle *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Bienvenue *chez nous*.",
+ "retry": "Cette fois, tu fais semblant de *dormir*.",
+ "leave": "Les coups *s'arrêtent*.",
+ "twist": [
+  "Nina",
+  "Tu as vu l'autre chambre ? Elle est occupée.",
+  "*Nina* t'écrit : l'autre chambre est *occupée*."
+ ],
+ "end": [
+  "Alors... *qui* dort dans l'autre chambre ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Ta colocataire est chez son copain. Elle est aussi à ta porte. Réponds 1 ou 2. Nuit 30 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

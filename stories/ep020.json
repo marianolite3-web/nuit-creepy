@@ -1,0 +1,93 @@
+{
+ "id": "ep020",
+ "night": 20,
+ "palette": "vert",
+ "outfit": [
+  214,
+  196,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:06:00",
+  "event": "03:30:00"
+ },
+ "group": {
+  "name": "Théo",
+  "sub": "Ton copain",
+  "sender": "Théo"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Théo*."
+ ],
+ "rules": [
+  [
+   "Je suis à Montréal pour le travail.",
+   "Je suis à *Montréal* pour le travail."
+  ],
+  [
+   "Mon vol est samedi.",
+   "Mon vol est *samedi*."
+  ],
+  [
+   "Ne m'attends pas avant.",
+   "Ne m'attends *pas avant*."
+  ]
+ ],
+ "blackout": "Trois heures *trente*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "5C",
+ "voice": "C'est *Théo*... surprise, je suis rentré plus tôt !",
+ "who": "Ton copain.",
+ "contra": [
+  "Théo",
+  "Je suis toujours à Montréal.",
+  "Mais il écrit : il est *toujours à Montréal*."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "SOUS LA COUVERTURE"
+ ],
+ "ask": "Tu *ouvres*... ou tu te caches *sous la couverture* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "*Surprise*.",
+ "retry": "Cette fois, tu te caches *sous la couverture*.",
+ "leave": "La lumière sous la porte *s'éteint*.",
+ "twist": [
+  "Théo",
+  "Qui est dans ton appartement ? J'ai vu une ombre.",
+  "*Théo* demande : qui est *dans ton appartement* ?"
+ ],
+ "end": [
+  "Alors... *qui* est entré ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Théo est à Montréal. Quelqu'un prétend être lui. Réponds 1 ou 2. Nuit 21 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "ep015",
+ "night": 15,
+ "palette": "rouge",
+ "outfit": [
+  214,
+  196,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "03:00:50",
+  "event": "03:14:00"
+ },
+ "group": {
+  "name": "Fibre Net",
+  "sub": "Service client",
+  "sender": "Technicien"
+ },
+ "hook": [
+  "Ce soir.",
+  "Il est *trois heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message du *technicien*."
+ ],
+ "rules": [
+  [
+   "Intervention de nuit, panne détectée.",
+   "Intervention de nuit. *Panne* détectée."
+  ],
+  [
+   "Ne débranchez rien.",
+   "Ne débranchez *rien*."
+  ],
+  [
+   "Nous n'entrons jamais chez vous.",
+   "Nous n'entrons *jamais* chez vous."
+  ]
+ ],
+ "blackout": "Trois heures *quatorze*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "10",
+ "voice": "Technicien de *nuit*... je dois vérifier la prise.",
+ "who": "Le technicien.",
+ "contra": [
+  "Technicien",
+  "Aucune intervention prévue à votre adresse.",
+  "Mais le technicien écrit : aucune *intervention* prévue chez toi."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "ÉTEINDRE LE TÉLÉPHONE"
+ ],
+ "ask": "Tu *ouvres*... ou tu *éteins* ton téléphone ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Branchement *terminé*.",
+ "retry": "Cette fois, tu *éteins* ton téléphone.",
+ "leave": "Le silence *revient*.",
+ "twist": [
+  "Fibre Net",
+  "Le signal vient de l'intérieur de votre logement.",
+  "*Fibre Net* t'écrit : le signal vient *de chez toi*."
+ ],
+ "end": [
+  "Alors... *qui* est connecté ?",
+  "Dans le *placard*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Le technicien n'a jamais été appelé. Réponds 1 ou 2. Nuit 16 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "ep012",
+ "night": 12,
+ "palette": "vert",
+ "outfit": [
+  214,
+  150,
+  132
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "ENTRÉE",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "01:11:11",
+  "event": "01:30:00"
+ },
+ "group": {
+  "name": "Sarah",
+  "sub": "Ton ex",
+  "sender": "Sarah"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *une heure* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Sarah*, ton ex."
+ ],
+ "rules": [
+  [
+   "Je suis partie en voyage.",
+   "Je suis *partie* en voyage."
+  ],
+  [
+   "Je ne reviens pas.",
+   "Je ne reviens *pas*."
+  ],
+  [
+   "Ne me réponds plus.",
+   "Ne me réponds *plus*."
+  ]
+ ],
+ "blackout": "Une heure *trente*.",
+ "knocks": "Trois coups... *sur ta porte*.",
+ "plate": "8",
+ "voice": "C'est *Sarah*... laisse-moi entrer, s'il te plaît.",
+ "who": "Ton ex.",
+ "contra": [
+  "Sarah",
+  "Je suis à Lisbonne depuis hier.",
+  "Mais elle écrit : elle est *à Lisbonne*. Depuis hier."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "SOUS LA COUVERTURE"
+ ],
+ "ask": "Tu *ouvres*... ou tu te caches *sous la couverture* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Elle *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Tu m'as *manqué*.",
+ "retry": "Cette fois, tu te caches *sous la couverture*.",
+ "leave": "La lumière sous la porte *s'éteint*.",
+ "twist": [
+  "Sarah",
+  "Tu as toujours mes clés ?",
+  "*Sarah* demande : tu as toujours *ses clés* ?"
+ ],
+ "end": [
+  "Alors... *qui* a ouvert avec une clé ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Dis-moi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "ET TOI",
+  "TU FAIS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Ton ex frappe à ta porte. Elle est à Lisbonne. Réponds 1 ou 2. Nuit 13 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

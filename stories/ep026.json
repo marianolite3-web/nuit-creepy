@@ -1,0 +1,93 @@
+{
+ "id": "ep026",
+ "night": 26,
+ "palette": "bleu",
+ "outfit": [
+  164,
+  132,
+  214
+ ],
+ "places": {
+  "hook": "SALON",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "02:11:30",
+  "event": "02:30:00"
+ },
+ "group": {
+  "name": "Marc",
+  "sub": "Voisin du dessous",
+  "sender": "Marc"
+ },
+ "hook": [
+  "Ce soir.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message de *Marc*, ton voisin."
+ ],
+ "rules": [
+  [
+   "J'ai lâché mon chien dans le couloir.",
+   "J'ai lâché *mon chien* dans le couloir."
+  ],
+  [
+   "Il n'aboie que sur les inconnus.",
+   "Il n'aboie que *sur les inconnus*."
+  ],
+  [
+   "Écoute s'il se tait.",
+   "Écoute *s'il se tait*."
+  ]
+ ],
+ "blackout": "Deux heures *trente*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "9",
+ "voice": "C'est *Marc*... mon chien s'est enfui, tu l'as vu ?",
+ "who": "Ton voisin.",
+ "contra": [
+  "Marc",
+  "Mon chien dort à côté de moi.",
+  "Mais il écrit : son chien *dort* à côté de lui."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Il *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Il s'est *tu*.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "Marc",
+  "Mon chien grogne devant ton appartement.",
+  "*Marc* t'écrit : son chien *grogne* devant chez toi."
+ ],
+ "end": [
+  "Alors... *qui* l'a fait taire ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Le chien de Marc dort. Alors qui aboyait ? Réponds 1 ou 2. Nuit 27 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}

@@ -1,0 +1,93 @@
+{
+ "id": "ep014",
+ "night": 14,
+ "palette": "bleu",
+ "outfit": [
+  190,
+  214,
+  132
+ ],
+ "places": {
+  "hook": "SÉJOUR",
+  "door": "PALIER",
+  "bed": "CHAMBRE"
+ },
+ "clock": {
+  "hook": "02:00:45",
+  "event": "02:22:00"
+ },
+ "group": {
+  "name": "Inès",
+  "sub": "Ta meilleure amie",
+  "sender": "Inès"
+ },
+ "hook": [
+  "Imagine.",
+  "Il est *deux heures* du matin."
+ ],
+ "buzz": [
+  "Ton *téléphone* vibre.",
+  "Un message d'*Inès*."
+ ],
+ "rules": [
+  [
+   "Je rentre en taxi, ne m'attends pas.",
+   "Je rentre en taxi. Ne m'attends *pas*."
+  ],
+  [
+   "Ma batterie est presque morte.",
+   "Ma batterie est presque *morte*."
+  ],
+  [
+   "Si j'appelle, c'est que j'ai un souci.",
+   "Si j'appelle... c'est que j'ai *un souci*."
+  ]
+ ],
+ "blackout": "Deux heures *vingt-deux*.",
+ "knocks": "Trois *coups*. Lents.",
+ "plate": "6D",
+ "voice": "C'est *Inès*... ouvre, on me suit.",
+ "who": "Ta meilleure amie.",
+ "contra": [
+  "Inès",
+  "Je suis déjà dans mon lit.",
+  "Mais elle écrit : elle est *déjà* dans son lit."
+ ],
+ "choice": [
+  "OUVRIR LA PORTE",
+  "RESTER IMMOBILE"
+ ],
+ "ask": "Tu *ouvres*... ou tu restes *immobile* ?",
+ "pick": "Tu *ouvres*.",
+ "peep": [
+  "Tu regardes par le *judas*.",
+  "Elle *sourit*.",
+  "Beaucoup *trop*."
+ ],
+ "scare": "Merci de *m'accueillir*.",
+ "retry": "Cette fois, tu restes *immobile*.",
+ "leave": "Les pas *s'éloignent*.",
+ "twist": [
+  "Inès",
+  "Il y a quelqu'un dans ma chambre.",
+  "*Inès* t'écrit : il y a *quelqu'un* dans sa chambre."
+ ],
+ "end": [
+  "Alors... *qui* te suivait ?",
+  "Derrière *toi*."
+ ],
+ "cta": [
+  "Et toi... tu *ouvres* ? Ou tu te *caches* ?",
+  "Réponds en *commentaire*."
+ ],
+ "cta_title": [
+  "TU OUVRES",
+  "OU PAS ?"
+ ],
+ "cta_opts": [
+  "OUVRIR",
+  "SE CACHER"
+ ],
+ "caption": "Inès demande de l'aide. Inès dort déjà. Réponds 1 ou 2. Nuit 15 demain.",
+ "tags": "#horreur #creepy #histoirequifaitpeur #suspense #fyp"
+}
