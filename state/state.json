@@ -1,6 +1,6 @@
 {
- "next": 2,
- "last_date": "2026-11-06",
+ "next": 3,
+ "last_date": "2026-11-07",
  "history": [
   {
    "story": "ep001.json",
@@ -9,6 +9,10 @@
   {
    "story": "ep002.json",
    "date": "2026-11-06"
+  },
+  {
+   "story": "ep003.json",
+   "date": "2026-11-07"
   }
  ]
 }
