@@ -1,6 +1,6 @@
 # Nuit — épisodes d'horreur automatiques (TikTok)
 
-Chaque jour à 17h30 UTC, GitHub génère une vidéo verticale (animation, voix FR, sous-titres, ambiance sonore) à partir de l'histoire suivante dans `stories/`, puis la publie sur TikTok via Zernio. Aucun serveur à payer : GitHub Actions est gratuit pour un dépôt public.
+Chaque jour vers 07h17 UTC (GitHub peut retarder de plusieurs heures), GitHub génère une vidéo verticale (animation, voix FR, sous-titres, ambiance sonore) à partir de l'histoire suivante dans `stories/`, puis la fait publier sur TikTok à heure fixe (17h30 UTC par défaut, variable `POST_AT_UTC`) via Zernio. Aucun serveur à payer : GitHub Actions est gratuit pour un dépôt public.
 
 ## Mise en route (une seule fois, depuis le téléphone)
 1. **Zernio** : crée un compte sur zernio.com, connecte ton TikTok, puis crée une clé API (Réglages → API Keys) et copie-la.

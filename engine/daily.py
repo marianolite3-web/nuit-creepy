@@ -28,8 +28,13 @@ caption = (sj.get("caption", "") + " " + sj.get("tags", "")).strip()
 open(out.replace(".mp4", ".txt"), "w").write(caption)
 if posting:
     sys.path.insert(0, HERE); import post
-    res = post.publish(out, caption, ai_label=True)
+    when = None; pa = os.environ.get("POST_AT_UTC", "17:30").strip()
+    if pa:
+        hh, mm = [int(x) for x in pa.split(":")]; nowu = datetime.datetime.now(datetime.timezone.utc)
+        tgt = nowu.replace(hour=hh, minute=mm, second=0, microsecond=0)
+        if tgt - nowu > datetime.timedelta(minutes=3): when = tgt.replace(tzinfo=None)
+    res = post.publish(out, caption, ai_label=True, when=when)
     state["next"] += 1; state["last_date"] = today; state["history"] = (state.get("history", []) + [{"story": os.path.basename(path), "date": today}])[-60:]
-    json.dump(state, open(sp, "w"), ensure_ascii=False, indent=1); print("PUBLIÉ.")
+    json.dump(state, open(sp, "w"), ensure_ascii=False, indent=1); print(("PROGRAMMÉ pour %s UTC." % when.strftime("%H:%M")) if when else "PUBLIÉ.")
 else:
     print("TEST : vidéo générée dans out/, rien publié.")

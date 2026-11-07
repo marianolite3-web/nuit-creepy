@@ -32,19 +32,25 @@ def statuses(o):
         for v in o: out += statuses(v)
     return out
 
-def publish(video, caption, ai_label=True):
+def publish(video, caption, ai_label=True, when=None):
+    """when : datetime UTC futur -> publication programmée chez Zernio ; None -> publication immédiate."""
     url = upload(video); aid = tiktok_account_id()
-    body = {"content": caption, "mediaItems": [{"type": "video", "url": url}],
-            "platforms": [{"platform": "tiktok", "accountId": aid, "platformSpecificData": {
-                "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": True, "allowDuet": True, "allowStitch": True,
-                "contentPreviewConfirmed": True, "expressConsentGiven": True, "videoMadeWithAi": bool(ai_label), "draft": False}}],
-            "publishNow": True}
-    r = requests.post(f"{API}/v1/posts", headers={**H, "Content-Type": "application/json"}, json=body, timeout=600)
-    print("HTTP", r.status_code); print(r.text[:2000])
-    try: js = r.json()
-    except Exception: js = {}
-    st = statuses(js)
-    ok = r.status_code in (200, 201) and "failed" not in st and "error" not in st
-    if not ok: raise SystemExit("Publication échouée (voir réponse ci-dessus).")
-    if any(s in ("draft", "inbox") for s in st): print("ATTENTION : TikTok a reçu un brouillon, pas une publication publique.")
-    return js
+    def body(w):
+        b = {"content": caption, "mediaItems": [{"type": "video", "url": url}],
+             "platforms": [{"platform": "tiktok", "accountId": aid, "platformSpecificData": {
+                 "privacyLevel": "PUBLIC_TO_EVERYONE", "allowComment": True, "allowDuet": True, "allowStitch": True,
+                 "contentPreviewConfirmed": True, "expressConsentGiven": True, "videoMadeWithAi": bool(ai_label), "draft": False}}]}
+        if w: b["scheduledFor"] = w.strftime("%Y-%m-%dT%H:%M:%S"); b["timezone"] = "UTC"
+        else: b["publishNow"] = True
+        return b
+    for w in ([when, None] if when else [None]):
+        r = requests.post(f"{API}/v1/posts", headers={**H, "Content-Type": "application/json"}, json=body(w), timeout=600)
+        print("HTTP", r.status_code); print(r.text[:2000])
+        try: js = r.json()
+        except Exception: js = {}
+        st = statuses(js)
+        if r.status_code in (200, 201) and "failed" not in st and "error" not in st:
+            if any(s in ("draft", "inbox") for s in st): print("ATTENTION : TikTok a reçu un brouillon, pas une publication publique.")
+            return js
+        if w: print("Programmation refusée : on publie tout de suite.")
+    raise SystemExit("Publication échouée (voir réponse ci-dessus).")

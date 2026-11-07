@@ -1,7 +1,7 @@
 name: Épisode du jour
 on:
   schedule:
-    - cron: "30 17 * * *"
+    - cron: "17 7 * * *"
   workflow_dispatch:
     inputs:
       mode:
@@ -34,6 +34,7 @@ jobs:
         env:
           ZERNIO_API_KEY: ${{ secrets.ZERNIO_API_KEY }}
           MAX_PER_MONTH: ${{ vars.MAX_PER_MONTH || '20' }}
+          POST_AT_UTC: ${{ vars.POST_AT_UTC || '17:30' }}
           MODE: ${{ github.event.inputs.mode || 'post' }}
         run: python engine/daily.py --mode "$MODE" 2>&1 | grep -v "Missing phoneme" | tee run.log
       - name: Lien de relecture (dernière vidéo)
